@@ -1,5 +1,5 @@
 ---
-bg: "tree.jpg"
+bg: "tree2.jpg"
 layout: page
 permalink: /posts/
 title: "Porjects"
