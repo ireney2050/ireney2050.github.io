@@ -1,5 +1,5 @@
 ---
-bg: "owl.jpg"
+bg: "lake.jpg"
 layout: page
 title: "About me"
 crawlertitle: "Why and how this blog was created"
