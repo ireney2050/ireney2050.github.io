@@ -2,9 +2,9 @@
 bg: "tree2.jpg"
 layout: page
 permalink: /posts/
-title: "Porjects"
-crawlertitle: "All Projects"
-summary: "Posts about projects"
+title: "Categories"
+crawlertitle: "All Posts"
+summary: "Category about all posts"
 active: archive
 ---
 
