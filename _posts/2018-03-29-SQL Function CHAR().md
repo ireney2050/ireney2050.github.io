@@ -4,7 +4,7 @@ layout: post
 title:  SQL Function Char()
 crawlertitle: Markdown sample
 summary: Description for this article
-date:   2018-01-06
+date:   2018-03-29
 categories: posts
 tags: ['SQL']
 author: Irene Y.
