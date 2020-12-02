@@ -4,7 +4,7 @@ layout: post
 title:  SQL Function Trim()
 crawlertitle: Markdown sample
 summary: Description for this article
-date:   2018-01-06
+date:   2018-03-19
 categories: posts
 tags: ['SQL']
 author: Irene Y.
