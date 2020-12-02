@@ -26,19 +26,9 @@ active: about
 
 ## University of Melbourne
 
-### Master's Degree in Information Systems**
+#### Master's Degree in Information Systems**
 
  *Melbourne,AU  - (2016-2018)*
-
-# **👩🏻‍💻** Work Experience
-
-## Data Analyst
-
-***Crazy PC**, Melbourne – (Feb 2019 - Feb 2020)*
-
-## Overseas Sales Executive
-
-***Cisco**, Beijing – (Jul 2014 - Jul 2015)*
 
 ---
 
@@ -67,5 +57,3 @@ Tableau, Power BI
 ### Advanced Excel⭐️⭐️⭐️
 
 VBA, Pivot Table
-
----
