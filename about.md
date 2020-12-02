@@ -26,7 +26,7 @@ active: about
 
 ## University of Melbourne
 
-#### Master's Degree in Information Systems**
+#### Master's Degree in Information Systems
 
  *Melbourne,AU  - (2016-2018)*
 
