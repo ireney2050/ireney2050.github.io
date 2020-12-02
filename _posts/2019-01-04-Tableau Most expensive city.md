@@ -12,5 +12,3 @@ bg: "african-penguins.jpg"
 ---
 [![Most expensive cities]({{ site.images | relative_url }}/Most expensive cities.jpg)]({{ site.images | relative_url }}/Most expensive cities.jpg)
 
-[![Most expensive cities]({{ site.images | assets/images/Most expensive cities.png }}/Most expensive cities.jpg)]({{ site.images | assets/images/Most expensive cities.png}}/Most expensive cities.jpg)
-
