@@ -4,7 +4,7 @@ layout: post
 title:  SQL Function String()
 crawlertitle: Markdown sample
 summary: Description for this article
-date:   2018-01-06
+date:   2018-02-05
 categories: posts
 tags: ['SQL']
 author: Irene Y.
