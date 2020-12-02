@@ -44,7 +44,7 @@ SQL,Python
 
 Linear Regression, Logic Regression, SVM, Decision Tree, Random Forest, K Means
 
-### DA Software ⭐️⭐️⭐️
+### Data Analytics Software ⭐️⭐️⭐️
 
 SAS, SPSS
 
