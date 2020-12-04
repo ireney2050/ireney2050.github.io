@@ -6,7 +6,7 @@ crawlertitle: Markdown sample
 summary: Description for this article
 date:   2019-02-10
 categories: posts
-tags: ['tableau']
+tags: ['TABLEAU']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
