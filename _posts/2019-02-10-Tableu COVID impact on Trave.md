@@ -1,4 +1,3 @@
-
 ---
 bg: "tools.jpg"
 layout: post
