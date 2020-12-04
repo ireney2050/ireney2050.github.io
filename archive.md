@@ -4,7 +4,7 @@ layout: page
 permalink: /posts/
 title: "Categories"
 crawlertitle: "All Posts"
-summary: "Category about all posts"
+summary: "About all posts"
 active: archive
 ---
 
