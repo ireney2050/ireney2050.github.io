@@ -57,3 +57,7 @@ Tableau, Power BI
 ### Advanced Excel⭐️⭐️⭐️
 
 VBA, Pivot Table
+
+# 📚  Learning Curve
+[![Learning Curve]({{ site.images | relative_url }}/learn.png)]({{ site.images | relative_url }}/learn.png)
+
