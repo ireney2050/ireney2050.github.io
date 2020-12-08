@@ -1,7 +1,7 @@
 ---
 bg: "tools.jpg"
 layout: post
-title:  Predictive modlling
+title:  Project Predictive modelling
 crawlertitle: Markdown sample
 summary: Description for this article
 date:   2019-06-26
@@ -29,7 +29,7 @@ ux[which.max(tabulate(match(x, ux)))]
 }
 
 *# loop through all salary payment for each customer
-# assume the salary level is constant for each customer over the observed period*
+### assume the salary level is constant for each customer over the observed period*
 **for** (i **in** seq(nrow(df_inc))){
 
 ```
@@ -95,7 +95,8 @@ hist(df_inc$annual_salary[!is.na(df_inc$annual_salary)],breaks=c(seq(28000,14000
 
 ```
 
-![Predictive%20modlling%20e978979e88ae4f87a0b6f43bb68ca158/Screen_Shot_2020-12-08_at_12.36.28_pm.png](Predictive%20modlling%20e978979e88ae4f87a0b6f43bb68ca158/Screen_Shot_2020-12-08_at_12.36.28_pm.png)
+[![project_predictive_modelling]({{ site.images | relative_url }}/project_predictive_modelling1.png)]({{ site.images | relative_url }}/project_predictive_modelling1.png)
+Projects
 
 1.2 Explore correlations between annual salary and various customer attributes
 (e.g. age).
