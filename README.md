@@ -1,6 +1,5 @@
 ## Voyager
-
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+Demo: <http://redvi.github.io/voyager>
 
 ### Feathures:
 
