@@ -11,7 +11,6 @@ author: Irene Y.
 bg: "african-penguins.jpg"
 ---
 
-Pic
 [![Most expensive cities]({{ site.images | relative_url }}/beers.png)]({{ site.images | relative_url }}/beers.png)
 
 
