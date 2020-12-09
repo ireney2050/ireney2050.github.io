@@ -43,25 +43,25 @@ active: about
 
 ## 🛠 Skills
 
-### ⭐️ Programming Language
+### Programming Language
 
 SQL,Python
 
-### ⭐️ Python Library
+### Python Library
 
 Linear Regression, Logic Regression, SVM, Decision Tree, Random Forest, K Means
 
-### ⭐️ Data Analytics Software
+### Data Analytics Software
 
 SAS, SPSS
 
-### ⭐️ Data Visualisation
+### Data Visualisation
 
 Tableau, Power BI
 
-### ⭐️ A/B Testing
+### A/B Testing
 
-### ⭐️ Advanced Excel
+### Advanced Excel
 
 VBA, Pivot Table
 
