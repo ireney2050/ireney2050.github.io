@@ -78,7 +78,7 @@ VBA, Pivot Table
 | Web Scraping        | Python3 Web Spider                                 |                                                              |
 |                     | Web Scraping with  Python 2nd Edition              |                                                              |
 | SQL                 | Leetcode                                           | MySQL for Data  Analytics and Business Intelligence          |
-|                     | Hackerank                                          | Udemy-The Compelete  SQL Bootcamp                            |
+|                     | Hackrank                                          | Udemy-The Compelete  SQL Bootcamp                            |
 |                     |                                                    | Model Analytics SQL  Tutorials                               |
 | Python              | Leetcode-Easy+Medium                               | Udemy - 2020 Complete  Python Bootcamp From Zero to Hero in Python |
 |                     | Python for Data  Analysis 2nd Edition              | Udemy - Python for  Data Science and Machine Learning Bootcamp |
