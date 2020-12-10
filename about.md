@@ -69,20 +69,31 @@ VBA, Pivot Table
 
 ## 📚 Learning Curve
 
-| Subject       | Book List                                          | Online Course                                         |
-| ------------- | -------------------------------------------------- | ----------------------------------------------------- |
-| Statistics    | Practical Statistics for Data  Scientists          | Coursera-Introduction to Probability  and Data with R |
-|               | Regression Analysis  by Example                    | Khan  Academy-Statistics and Probability              |
-|               | Reading and  Understanding Multivariate Statistics | Coursera-Statistical  Inference                       |
-|               |                                                    | Udacity-Intro to  descriptive Stats                   |
-| Modelling     | Machine Leaning  Practice                          | Coursera-Machine  Learning                            |
-|               | Machine Leaning for  Hackers                       | Udacity-Intro to  Machine Learning                    |
-| Coding        | Leetcode-Easy+Medium                               | Udacity-CS215  Algorithms                             |
-|               | Python for Data  Analysis                          | Coursera-Intro to  interactive programming in Python  |
-| SQL           |                                                    | W3 School                                             |
-|               |                                                    | Leetcode                                              |
-|               |                                                    | Model Analytics SQL  Tutorials                        |
-| Product Sense | Lean Analytics                                     | Udacity-A/B Testing                                   |
-|               | Cracking the PM  interview                         |                                                       |
-|               | Case in point                                      |                                                       |
-| Practice      | A Collection of Data  Science Takehome Challenges  |                                                       |
+| Subject             | Book List                                          | Online Course                                                |
+| ------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| Statistics          | Practical Statistics  for Data Scientists          | Coursera-Introduction  to Probability and Data with R        |
+|                     | Regression Analysis  by Example                    | Khan  Academy-Statistics and Probability                     |
+|                     | Reading and  Understanding Multivariate Statistics | Coursera-Statistical  Inference                              |
+|                     |                                                    | Udacity-Intro to  descriptive Stats                          |
+| Web Scraping        | Python3 Web Spider                                 |                                                              |
+|                     | Web Scraping with  Python 2nd Edition              |                                                              |
+| SQL                 | Leetcode                                           | MySQL for Data  Analytics and Business Intelligence          |
+|                     | Hackerank                                          | Udemy-The Compelete  SQL Bootcamp                            |
+|                     |                                                    | Model Analytics SQL  Tutorials                               |
+| Python              | Leetcode-Easy+Medium                               | Udemy - 2020 Complete  Python Bootcamp From Zero to Hero in Python |
+|                     | Python for Data  Analysis 2nd Edition              | Udemy - Python for  Data Science and Machine Learning Bootcamp |
+|                     | Fluent Python                                      | Python for Data  Analysis and Visualisation                  |
+|                     | Data Science for  Business                         | Data Science A-Z™  Real-Life Data Science Exercises Included |
+|                     |                                                    | IBM- Data Science  Professional                              |
+| Data  Visualisation | Tableau Official  Guide                            | Tableau 10 A-Z  Hands-On Tableau Training For Data Science!  |
+|                     |                                                    | Tableau 10 Advanced  Training                                |
+|                     | Microsoft-Power BI                                 | Edx-Basics of Power  BI                                      |
+|                     |                                                    | Udemy-Microsoft Power  BI - Up & Running With Power BI Desktop |
+| Machine  Learning   | Machine Leaning  Practice                          | Coursera-Machine  Learning                                   |
+|                     | Machine Leaning for  Hackers                       | Udacity-Intro to  Machine Learning                           |
+|                     |                                                    | Udacity-CS215  Algorithms                                    |
+| Product Sense       | Lean Analytics                                     | Udacity-A/B Testing                                          |
+|                     | Cracking the PM  interview                         | Product school                                               |
+|                     | Case in point                                      |                                                              |
+|                     | Case interview secret                              |                                                              |
+| Practice            | A Collection of Data  Science Takehome Challenges  |                                                              |
