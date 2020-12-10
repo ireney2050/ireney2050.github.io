@@ -49,6 +49,10 @@ SQL,Python
 
 ### Python Library
 
+NumPy, Pandas, Matplotlib, Seaborn Plotly, Bokeh, Scikit-learn
+
+### Modelling
+
 Linear Regression, Logic Regression, SVM, Decision Tree, Random Forest, K Means
 
 ### Data Analytics Software
