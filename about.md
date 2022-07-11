@@ -4,7 +4,7 @@ layout: page
 title: "About me"
 crawlertitle: "Why this blog was created"
 permalink: /about/
-summary: ""
+summary: "Irene Y."
 active: about
 ---
 # Goal
