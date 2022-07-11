@@ -3,7 +3,7 @@ bg: "lighthouse.jpg"
 layout: page
 permalink: /posts/
 title: "All Projects"
-crawlertitle: ""
+crawlertitle: "Project Portfolio"
 summary: ""
 active: archive
 ---
@@ -12,7 +12,7 @@ active: archive
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
+  <h2 class="category-key" id="{{ t | upcase }}">{{ t | capitalize }}</h2>
 
   <ul class="year">
     {% for post in posts %}
