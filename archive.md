@@ -4,7 +4,7 @@ layout: page
 permalink: /posts/
 title: "All Projects"
 crawlertitle: ""
-summary: "Projects"
+summary: ""
 active: archive
 ---
 
