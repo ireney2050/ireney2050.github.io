@@ -1,9 +1,9 @@
 ---
-bg: "tag.jpg"
+bg: "lighthouse.jpg"
 layout: page
 permalink: /posts/
-title: "Portfolio"
-crawlertitle: "All Projects"
+title: "All Projects"
+crawlertitle: ""
 summary: "Projects"
 active: archive
 ---
