@@ -6,7 +6,7 @@ crawlertitle: Business Intelligence Project
 summary: Description for this article
 date:   2021-08-10
 categories: posts
-tags: ['BI']
+tags: ['Business Intelligence']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
