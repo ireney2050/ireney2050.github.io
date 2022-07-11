@@ -7,7 +7,7 @@ permalink: /about/
 summary: ""
 active: about
 ---
-## Irene Y.
+# Irene Y.
 
 > As data scientists, our job is to extract signal from noise. 🌊. 
 
