@@ -2,7 +2,7 @@
 bg: "tools.jpg"
 layout: post
 title:  Project Store Data modelling-SQL
-crawlertitle: Markdown sample
+crawlertitle: SQL Project
 summary: Description for this article
 date:   2022-02-01
 categories: posts
