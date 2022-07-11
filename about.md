@@ -17,7 +17,7 @@ active: about
 
 🐦 Github: ireney2050.github.io
 
-🔗 LinkedIn: [linkedin.com/in/irene2050/](https://www.linkedin.com/in/irene-y-609925142/)
+🔗 LinkedIn: [linkedin.com/in/ireney2050/](https://www.linkedin.com/in/irene-y-609925142/)
 
 ---
 
