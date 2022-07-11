@@ -6,7 +6,7 @@ crawlertitle: Markdown sample
 summary: Description for this article
 date:   2021-08-10
 categories: posts
-tags: ['PROJECTS']
+tags: ['SPSS']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
