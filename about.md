@@ -4,10 +4,10 @@ layout: page
 title: "About me"
 crawlertitle: "Why this blog was created"
 permalink: /about/
-summary: "Irene Y."
+summary: ""
 active: about
 ---
-# Goal
+## Irene Y.
 
 > As data scientists, our job is to extract signal from noise. 🌊. 
 
