@@ -2,7 +2,7 @@
 bg: "tools.jpg"
 layout: post
 title: Project Predict Credit Card Approvals-Python
-crawlertitle: Markdown sample
+crawlertitle: Python Project
 summary: Description for this article
 date:   2021-08-10
 categories: posts
