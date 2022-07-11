@@ -2,11 +2,11 @@
 bg: "tools.jpg"
 layout: post
 title:  Project Melbourne Bike Share
-crawlertitle: Markdown sample
+crawlertitle: Business Intelligence Project
 summary: Description for this article
 date:   2021-08-10
 categories: posts
-tags: ['SPSS']
+tags: ['BI']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
