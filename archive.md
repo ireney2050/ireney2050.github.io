@@ -2,7 +2,7 @@
 bg: "lighthouse.jpg"
 layout: page
 permalink: /posts/
-title: "All Projects"
+title: "Projects"
 crawlertitle: "Project Portfolio"
 summary: ""
 active: archive
