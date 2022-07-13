@@ -1,7 +1,7 @@
 ---
 bg: "african-penguins.jpg"
 layout: post
-title:  Tableau Travel changes during COVID
+title: Travel changes during COVID-Tableau
 crawlertitle: Tableau Project
 summary: Description for this article
 date:   2022-02-10
