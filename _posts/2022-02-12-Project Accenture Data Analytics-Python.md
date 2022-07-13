@@ -6,7 +6,7 @@ crawlertitle: Python Project
 summary: Description for this article
 date:   2022-02-12
 categories: posts
-tags: ['PROJECTS']
+tags: ['PYTHON']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
