@@ -10,7 +10,7 @@ active: about
 # Irene Y.
 
 > Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
-My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions 🌊.> 
+My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions 🌊.<
 
 ## ☎️ Contact
 
