@@ -9,7 +9,8 @@ active: about
 ---
 # Irene Y.
 
-> Skilled in transforming complex datasets into actionable insights. Proven ability to integrate data science, automation, and applied AI to enable smarter, faster, and scalable solutions 🌊. 
+> Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
+My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions🌊.
 
 ## ☎️ Contact
 
