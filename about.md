@@ -9,7 +9,8 @@ active: about
 ---
 # Irene Y.
 
-> As data scientists, our job is to extract signal from noise. 🌊. 
+> Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
+My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions. 🌊. 
 
 ## ☎️ Contact
 
@@ -25,7 +26,7 @@ active: about
 
 ### University of Melbourne
 
-### Master's Degree in Information Systems
+### Master of Information Systems
 
  *Melbourne,AU  - (2016-2018)*
 
@@ -33,35 +34,25 @@ active: about
 
 ## 🛠 Technical Skills
 
-### Programming Language
+**Programming & Data**  
+- Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly, Bokeh)  
+- SQL (BigQuery, MySQL, Snowflake)  
+- SAS, SPSS
 
-SQL,Python
+**AI & Automation**  
+- OpenAI API (ChatGPT, fine-tuned models, prompt engineering)  
+- Google Vertex AI / AWS SageMaker  
+- LangChain, LlamaIndex  
+- Workflow automation (Python + Zapier/Make + Google Cloud Functions)  
+- Natural Language Processing (Text Classification, Topic Modelling, Sentiment Analysis)
 
-### Python Library
+**Data Visualization & BI**  
+- Power BI, Tableau, Looker Studio  
+- Advanced Excel (Pivot Tables, VBA Macros)
 
-NumPy, Pandas, Matplotlib, Seaborn Plotly, Bokeh, Scikit-learn
-
-### Cloud Computing
-
-GCP, AWS, Snowflake
-
-### Data Modelling
-
-Linear Regression, Logic Regression, SVM, Decision Tree, Random Forest, K Means
-
-### Data Analytics Software
-
-SAS, SPSS
-
-### Data Visualisation
-
-Tableau, Power BI
-
-### A/B Testing
-
-### Advanced Excel
-
-VBA(Include Macro), Pivot Table
+**Data Science & ML**  
+- Linear & Logistic Regression, Decision Trees, Random Forest, SVM, K-Means  
+- A/B Testing, Feature Engineering, Model Evaluation
 
 ---
 
