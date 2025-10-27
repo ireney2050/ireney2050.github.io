@@ -9,8 +9,7 @@ active: about
 ---
 # Irene Y.
 
-> Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
-My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions. 🌊. 
+> Skilled in transforming complex datasets into actionable insights. Proven ability to integrate data science, automation, and applied AI to enable smarter, faster, and scalable solutions 🌊. 
 
 ## ☎️ Contact
 
@@ -24,11 +23,9 @@ My work bridges **data science, automation, and applied AI**, helping people mak
 
 ## 📚 Education
 
-### University of Melbourne
-
-### Master of Information Systems
-
- *Melbourne,AU  - (2016-2018)*
+**University of Melbourne**  
+*Master of Information Systems (2016–2018)*  
+Melbourne, Australia
 
 ---
 
