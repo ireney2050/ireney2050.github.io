@@ -10,7 +10,7 @@ active: about
 # Irene Y.
 
 > Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
-My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions🌊.
+My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions 🌊.
 
 ## ☎️ Contact
 
@@ -39,8 +39,6 @@ Melbourne, Australia
 
 **AI & Automation**  
 - OpenAI API (ChatGPT, fine-tuned models, prompt engineering)  
-- Google Vertex AI / AWS SageMaker  
-- LangChain, LlamaIndex  
 - Workflow automation (Python + Zapier/Make + Google Cloud Functions)  
 - Natural Language Processing (Text Classification, Topic Modelling, Sentiment Analysis)
 
