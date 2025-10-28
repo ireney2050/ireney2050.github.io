@@ -30,7 +30,7 @@ Melbourne, Australia
 
 ---
 
-## 📚 Publication
+## 🔗 Publication
 
 **Child Impact Survey 2023**  
 I led the development and publication of the 2023 Child Impact Survey, which was featured in The Sector and ABC News 
