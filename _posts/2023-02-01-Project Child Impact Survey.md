@@ -24,10 +24,14 @@ The survey captured insights from over 3,000 families and educators across Austr
 - **Promoted awareness** of children's wellbeing in the post-COVID landscape through accessible, actionable insights.
 
 > 📌 *Read the full article here:* [Camp Australia's Child Impact Survey shines light on post-COVID-19 landscape](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/)
-> [![Child Impact Survey The Sector Feature]({{ site.images | relative_url }}/s1.png)]({{ site.images | relative_url }}/s1.png)
+> [![Child Impact Survey The Sector Feature]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)
 
 ### 🏆 Full report (This report was authored and analyzed by me)
 [Read the full report (PDF)](/assets/230201_Child_Impact_Survey_2022_Full_Results%20(1).pdf)
 
-> [![Child Impact Survey Feature]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)
-
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s1.png)]({{ site.images | relative_url }}/s1.png)
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s2.png)]({{ site.images | relative_url }}/s2.png)
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s3.png)]({{ site.images | relative_url }}/s3.png)
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s4.png)]({{ site.images | relative_url }}/s4.png)
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s5.png)]({{ site.images | relative_url }}/s5.png)
+> [![Child Impact Survey Feature]({{ site.images | relative_url }}/s6.png)]({{ site.images | relative_url }}/s6.png)
