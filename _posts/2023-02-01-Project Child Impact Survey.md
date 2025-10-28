@@ -25,8 +25,6 @@ The survey captured insights from over 3,000 families and educators across Austr
 
 > 📌 *Read the full article here:* [Camp Australia's Child Impact Survey shines light on post-COVID-19 landscape](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/)
 
-> [![Child Impact Survey Feature]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)]({{ site.images | relative_url }}/ChildImpactSurveyTheSector.png)
-
 
 ### 🏆 Full report (This report was authored and analyzed by me)
 
