@@ -33,7 +33,7 @@ Melbourne, Australia
 ## 🔗 Publication
 
 **Child Impact Survey 2023**  
-I led the development and publication of the 2023 Child Impact Survey, which was featured in The Sector and ABC News 
+I led the development and publication of the 2023 Child Impact Survey, which was featured in **The Sector and ABC News**
 > 📌 *Read the full article here:* [Camp Australia's Child Impact Survey shines light on post-COVID-19 landscape](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/)
 
 ---
