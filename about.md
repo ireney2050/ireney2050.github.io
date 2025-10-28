@@ -9,7 +9,7 @@ active: about
 ---
 # Irene Y.
 
-> Hi, I’m a data science and analytics professional passionate about transforming complex data into actionable insights.  
+> Hi, I’m a data analytics professional passionate about transforming complex data into actionable insights.  
 My work bridges **data science, automation, and applied AI**, helping people make smarter, faster, and more scalable decisions 🌊.
 
 ## ☎️ Contact
@@ -52,7 +52,7 @@ Melbourne, Australia
 
 ---
 
-## 📚 Learning Curve
+## 📚 Learning Curve (Relevant books and courses completed)
 
 | Subject             | Book List                                          | Online Course                                                |
 | ------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
