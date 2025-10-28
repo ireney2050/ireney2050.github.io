@@ -6,7 +6,7 @@ crawlertitle: Markdown sample
 summary: Description for this article
 date:   2023-02-01
 categories: posts
-tags: ['PROJECTS']
+tags: ['PUBLICATION']
 author: Irene Y.
 bg: "african-penguins.jpg"
 ---
@@ -24,10 +24,17 @@ The survey captured insights from over 3,000 families and educators across Austr
 - **Promoted awareness** of children's wellbeing in the post-COVID landscape through accessible, actionable insights.
 
 > 📌 *Read the full article here:* [Camp Australia's Child Impact Survey shines light on post-COVID-19 landscape](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/)
-> <img src="/assets/ChildImpactSurveyTheSector.png" alt="Cover" width="600">
-
+![Child Impact Survey Feature](assets/images/ChildImpactSurveyTheSector.png)
 
 ### 🏆 Full report (This report was authored and analyzed by me)
 [![Read the Child Impact Survey (PDF)]
-<embed src="/assets/230201_Child_Impact_Survey_2022_Full_Results.pdf#view=FitH" type="application/pdf" width="100%" height="900" />
-<p><a href="/assets/230201_Child_Impact_Survey_2022_Full_Results.pdf">Open in a new tab</a></p>
+<iframe
+  src="/assets/230201_Child_Impact_Survey_2022_Full_Results%20(1).pdf#view=FitH"
+  width="100%"
+  height="900"
+  style="border:0"
+  title="Child Impact Survey (Full PDF)">
+</iframe>
+
+<p>If the PDF doesn’t load, <a href="/assets/230201_Child_Impact_Survey_2022_Full_Results%20(1).pdf">download it here</a>.</p>
+
