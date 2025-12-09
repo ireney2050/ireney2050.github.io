@@ -12,7 +12,7 @@ bg: "african-penguins.jpg"
 ---
 ## 📊 Published Research: Child Impact Survey (2023)
 
-In collaboration with Camp Australia coworkers, I led the development and publication of the **2023 Child Impact Survey**, which was featured in [*The Sector*](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/), a leading publication in the early childhood education sector. My insights on child wellbeing were featured in an ABC News interview with Camp Australia CEO Warren Jacobson [*ABC NEWS*](https://www.linkedin.com/posts/camp-australia_camp-australias-ceo-warren-jacobson-speaks-activity-7028909915524005888-y-Ng/).
+In collaboration with Camp Australia coworkers, I led the development and publication of the **2023 Child Impact Survey**, which was featured in [*The Sector*](https://thesector.com.au/2023/02/08/camp-australias-child-impact-survey-shines-light-on-post-covid-19-landscape/). My insights on child wellbeing were featured in an ABC News interview with Camp Australia CEO Warren Jacobson [*ABC NEWS*](https://www.linkedin.com/posts/camp-australia_camp-australias-ceo-warren-jacobson-speaks-activity-7028909915524005888-y-Ng/).
 > [![ABC NEWS Feature]({{ site.images | relative_url }}/abc.png)]({{ site.images | relative_url }}/abc.png)
 
 ### 🔍 Overview
