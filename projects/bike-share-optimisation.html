@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melbourne Bike Share Rebalancing Model | Irene Yuan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fdfdfd;--text:#222;--text2:#555;--text3:#888;
+  --accent:#0076df;--accent-dk:#005bb5;--accent-lt:#e8f4fd;
+  --border:#e8e8e8;--tag-bg:#f0f0f0;--tag-text:#555;
+  --sidebar-w:35vw;--content-max:780px;
+  --font-serif:'PT Serif','Georgia','Times New Roman',serif;
+  --font-heading:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --font-mono:'Roboto Condensed',monospace;
+}
+html{scroll-behavior:smooth;font-size:17px}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);line-height:1.75;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading)}
+a{color:var(--accent);text-decoration:none;transition:color .15s}
+a:hover{color:var(--accent-dk);text-decoration:underline}
+.page-wrap{display:flex;min-height:100vh}
+.sidebar{
+  width:var(--sidebar-w);max-width:500px;min-width:300px;
+  position:fixed;top:0;left:0;bottom:0;
+  background:url('https://ireney2050.github.io/assets/images/lake.jpg') center/cover no-repeat;
+  display:flex;flex-direction:column;justify-content:flex-end;z-index:10;
+}
+.sidebar-overlay{
+  flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:15vh;
+  padding:2rem 2rem 2.5rem;
+  background:linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.5) 100%);
+}
+.sidebar-name{font-family:var(--font-heading);font-size:1.6rem;font-weight:700;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.5rem;text-align:center}
+.sidebar-nav{list-style:none;margin-bottom:0;text-align:center}
+.sidebar-nav li{margin-bottom:.1rem}
+.sidebar-nav a{
+  display:block;padding:.45rem .75rem;border-radius:6px;
+  font-family:var(--font-heading);font-size:.85rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(255,255,255,0.8);text-decoration:none;transition:all .15s;
+}
+.sidebar-nav a:hover{background:rgba(255,255,255,0.15);color:#fff;text-decoration:none}
+.main{margin-left:var(--sidebar-w);flex:1;display:flex;flex-direction:column}
+.main-inner{max-width:var(--content-max);padding:2.5rem 2.5rem 4rem 2rem;flex:1}
+.back-link{font-family:var(--font-heading);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text3);margin-bottom:2rem;display:inline-block}
+.back-link:hover{color:var(--text);text-decoration:none}
+.project-title{font-size:1.7rem;font-weight:900;margin-bottom:.4rem;line-height:1.3}
+.project-meta{font-size:.82rem;color:var(--text3);font-family:var(--font-heading);margin-bottom:2rem}
+.detail-section{margin-bottom:2rem}
+.detail-section h2{font-size:1.15rem;font-weight:700;margin-bottom:.75rem}
+.detail-section p{font-size:.95rem;color:var(--text2);line-height:1.8;margin-bottom:.75rem}
+.detail-section ul{margin:0 0 1rem 1.4rem;color:var(--text2);font-size:.95rem;line-height:1.9}
+.detail-section ul li{margin-bottom:.3rem}
+.detail-section strong{color:var(--text)}
+blockquote{border-left:3px solid var(--border);padding:.75rem 1.25rem;margin:1rem 0;color:var(--text2);font-size:.92rem;line-height:1.8}
+.tag{display:inline-block;padding:.2rem .6rem;background:var(--tag-bg);color:var(--tag-text);border-radius:4px;font-size:.78rem;font-weight:500;font-family:var(--font-mono);margin-right:.3rem;margin-bottom:.3rem}
+.site-footer{padding:2rem 2.5rem;border-top:1px solid var(--border);text-align:center;font-size:.78rem;color:var(--text3)}
+.mobile-header{display:none}
+@media(max-width:900px){
+  .sidebar{display:none}
+  .main{margin-left:0}
+  .mobile-header{display:flex;position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:.75rem 1.25rem;align-items:center;justify-content:space-between}
+  .mobile-header h1{font-family:var(--font-heading);font-size:.9rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text)}
+  .main-inner{padding:4.5rem 1.25rem 3rem}
+}
+</style>
+</head>
+<body>
+<div class="mobile-header"><h1><a href="../index.html" style="color:var(--text);text-decoration:none">Irene Y. Portfolio</a></h1></div>
+<div class="page-wrap">
+<aside class="sidebar">
+  <div class="sidebar-overlay">
+    <p class="sidebar-name">Irene Yuan</p>
+    <ul class="sidebar-nav">
+      <li><a href="../index.html#about">About Me</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</aside>
+<div class="main">
+<div class="main-inner">
+<a href="../index.html#projects" class="back-link">&larr; Back to Projects</a>
+
+<h1 class="project-title">Project Melbourne Bike Share</h1>
+<p class="project-meta">10-08-2021 / Irene Y.</p>
+
+<div class="detail-section">
+  <p>Melbourne Bike Share (MBS) is a bike hire service that operates in Melbourne city. As a part of Melbourne's public transportation, MBS is dedicated to provide a fit and green transport alternative to users. So far, it has 50 docking stations and possesses over 600 bikes, which helps reducing crowding during commuting time and handling increasing travel demands in inner Melbourne city.</p>
+  <p>Bike sharing has become a popular means of transportation nowadays, as it provides a new way to optimise social resources. However, it raises a range of problems at the same time, such as the issue of rebalancing the entire bike inventory across the city being serviced, each docking station demands to fill bikes timely to meet users' needs at any time. This rebalancing can prove costly for bike sharing business, due to transportation and infrastructure demands. To address this issue, this article proposes an optimisation solution to minimise bike rebalancing cost.</p>
+  <p>There are four existing warehouses that can be used for storing bikes. There are 50 stations to supply the bikes with different demands. The stations are reduced by 1 from an official 51 stations as the 2 stations are almost in same area in the map thus combining the 2 stations would only require 1 trip to supply the bikes.</p>
+</div>
+
+<div class="detail-section">
+  <h2>Decision Variables</h2>
+  <p>The decision variables below are used for minimizing the cost to achieve the optimization:</p>
+  <ul>
+    <li><strong>y</strong> is 1 if to rent the warehouse in CBD, 0 otherwise.</li>
+    <li><strong>x<sub>ij</sub></strong> = units of bikes to be shipped from distribution warehouse <em>i</em> to station <em>j</em>.</li>
+  </ul>
+</div>
+
+<div class="detail-section">
+  <h2>Objective Function</h2>
+  <p>Minimize transportation cost (Z) = total transportation cost + total warehouse rental cost</p>
+  <p><strong>Z = &sum; &sum; C<sub>ij</sub> X<sub>ij</sub> + y &times; RC</strong></p>
+  <p>Where:</p>
+  <ul>
+    <li><strong>C<sub>ij</sub></strong> refers to the cost of transportation from warehouse <em>j</em> to station <em>i</em>.</li>
+    <li><strong>X<sub>ij</sub></strong> = Units of bike to be shipped from warehouse <em>j</em> to station <em>i</em>.</li>
+    <li><strong>y</strong> is 1 if to rent the warehouse in CBD, 0 otherwise.</li>
+    <li><strong>RC</strong> refers to the rental cost of the CBD warehouse.</li>
+  </ul>
+  <p>Each pair of transportation cost is calculated as: <strong>$2.16 &times; Distance &times; 2 / demand of each station</strong>. The operating cost of $2.16/KM is based on a 'Flat Deck' truck estimate. Distances are derived from Google Maps using exact coordinates, multiplied by 2 for round trips.</p>
+  <p>The daily rent for the CBD warehouse is approximately <strong>$157.50</strong>, based on real estate estimates for a 100 square metre storage space.</p>
+</div>
+
+<div class="detail-section">
+  <h2>Implementation &amp; Results</h2>
+  <p>The model shows that it is more cost efficient to rent an additional warehouse in CBD, given that the incremental cost of the CBD warehouse is covered by total costs saved from the shorter distributing distance. The total cost incurred with renting the warehouse in CBD (<strong>$644.26</strong>) is cheaper than distributing from the 3 warehouses alone in the inner suburbs (<strong>$672.27</strong>).</p>
+  <p>Although this proposed model contains many constraints and limitations, it successfully solved the cost minimisation problem in bike rebalancing and remains functional as a practical optimisation approach.</p>
+</div>
+
+<div class="detail-section">
+  <h2>🛠 Tech Stack</h2>
+  <span class="tag">Python</span>
+  <span class="tag">PuLP</span>
+  <span class="tag">Linear Programming</span>
+  <span class="tag">Optimisation</span>
+  <span class="tag">Google Maps API</span>
+  <span class="tag">Data Visualisation</span>
+</div>
+
+</div>
+<footer class="site-footer"><p>&copy; 2026 Irene Yuan. Hosted on GitHub Pages.</p></footer>
+</div>
+</div>
+</body>
+</html>

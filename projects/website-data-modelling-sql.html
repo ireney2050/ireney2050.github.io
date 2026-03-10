@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Website Data modelling-SQL | Irene Yuan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fdfdfd;--text:#222;--text2:#555;--text3:#888;
+  --accent:#0076df;--accent-dk:#005bb5;--accent-lt:#e8f4fd;
+  --border:#e8e8e8;--tag-bg:#f0f0f0;--tag-text:#555;
+  --sidebar-w:35vw;--content-max:780px;
+  --font-serif:'PT Serif','Georgia','Times New Roman',serif;
+  --font-heading:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --font-mono:'Roboto Condensed',monospace;
+}
+html{scroll-behavior:smooth;font-size:17px}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);line-height:1.75;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading)}
+a{color:var(--accent);text-decoration:none;transition:color .15s}
+a:hover{color:var(--accent-dk);text-decoration:underline}
+.page-wrap{display:flex;min-height:100vh}
+.sidebar{
+  width:var(--sidebar-w);max-width:500px;min-width:300px;
+  position:fixed;top:0;left:0;bottom:0;
+  background:url('https://ireney2050.github.io/assets/images/lake.jpg') center/cover no-repeat;
+  display:flex;flex-direction:column;justify-content:flex-end;z-index:10;
+}
+.sidebar-overlay{
+  flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:15vh;
+  padding:2rem 2rem 2.5rem;
+  background:linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.5) 100%);
+}
+.sidebar-name{font-family:var(--font-heading);font-size:1.6rem;font-weight:700;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.5rem;text-align:center}
+.sidebar-nav{list-style:none;margin-bottom:0;text-align:center}
+.sidebar-nav li{margin-bottom:.1rem}
+.sidebar-nav a{
+  display:block;padding:.45rem .75rem;border-radius:6px;
+  font-family:var(--font-heading);font-size:.85rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(255,255,255,0.8);text-decoration:none;transition:all .15s;
+}
+.sidebar-nav a:hover{background:rgba(255,255,255,0.15);color:#fff;text-decoration:none}
+.main{margin-left:var(--sidebar-w);flex:1;display:flex;flex-direction:column}
+.main-inner{max-width:var(--content-max);padding:2.5rem 2.5rem 4rem 2rem;flex:1}
+.back-link{font-family:var(--font-heading);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text3);margin-bottom:2rem;display:inline-block}
+.back-link:hover{color:var(--text);text-decoration:none}
+.project-title{font-size:1.7rem;font-weight:900;margin-bottom:.4rem;line-height:1.3}
+.project-meta{font-size:.82rem;color:var(--text3);font-family:var(--font-heading);margin-bottom:2rem}
+.detail-section{margin-bottom:2rem}
+.detail-section h2{font-size:1.15rem;font-weight:700;margin-bottom:.75rem}
+.detail-section h3{font-size:1rem;font-weight:700;margin-top:1.25rem;margin-bottom:.5rem}
+.detail-section p{font-size:.95rem;color:var(--text2);line-height:1.8;margin-bottom:.75rem}
+.detail-section ul{margin:0 0 1rem 1.4rem;color:var(--text2);font-size:.95rem;line-height:1.9}
+.detail-section ul li{margin-bottom:.3rem}
+.detail-section strong{color:var(--text)}
+blockquote{border-left:3px solid var(--border);padding:.75rem 1.25rem;margin:1rem 0;color:var(--text2);font-size:.92rem;line-height:1.8}
+.tag{display:inline-block;padding:.2rem .6rem;background:var(--tag-bg);color:var(--tag-text);border-radius:4px;font-size:.78rem;font-weight:500;font-family:var(--font-mono);margin-right:.3rem;margin-bottom:.3rem}
+.site-footer{padding:2rem 2.5rem;border-top:1px solid var(--border);text-align:center;font-size:.78rem;color:var(--text3)}
+.mobile-header{display:none}
+@media(max-width:900px){
+  .sidebar{display:none}
+  .main{margin-left:0}
+  .mobile-header{display:flex;position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:.75rem 1.25rem;align-items:center;justify-content:space-between}
+  .mobile-header h1{font-family:var(--font-heading);font-size:.9rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text)}
+  .main-inner{padding:4.5rem 1.25rem 3rem}
+}
+</style>
+</head>
+<body>
+<div class="mobile-header"><h1><a href="../index.html" style="color:var(--text);text-decoration:none">Irene Y. Portfolio</a></h1></div>
+<div class="page-wrap">
+<aside class="sidebar">
+  <div class="sidebar-overlay">
+    <p class="sidebar-name">Irene Yuan</p>
+    <ul class="sidebar-nav">
+      <li><a href="../index.html#about">About Me</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</aside>
+<div class="main">
+<div class="main-inner">
+<a href="../index.html#projects" class="back-link">&larr; Back to Projects</a>
+
+<h1 class="project-title">Project Website Data modelling-SQL</h1>
+<p class="project-meta">10-01-2022 / Irene Y.</p>
+
+<div class="detail-section">
+  <p>Different types of data that we can get on a website.</p>
+  <p>We have traffic coming from a variety of sources that could be email, social media, search, direct traffic, and that's coming to a page on a website. Then it may visit another page, then you may take a product and put it into a shopping cart and finally make purchases and then data would flow into a payment.</p>
+</div>
+
+<div class="detail-section">
+  <h2>Data Flow &amp; Tracking</h2>
+  <p>Data will be going to Google Analytics tracking all of this or again, could be an internal system. We could have data writing to a MySQL database. It's great for aggregate things like how many sessions did I get on my site? How much traffic did I get from organic?</p>
+  <p>We have traffic coming in, people hitting certain pages, putting products into the cart, making purchases, and all of this information ends up getting stored so that the business can use it to analyze performance and make optimizations.</p>
+</div>
+
+<div class="detail-section">
+  <h2>User Tracking &amp; Cookies</h2>
+  <p>We may track a user ID, we may have some sort of a field to say whether or not it's a repeat session or it's a new customer. We do all of this using cookies, so basically a cookie is a little snippet of code that is put in your browser when you visit a website, it has an identifier related to it.</p>
+</div>
+
+<div class="detail-section">
+  <h2>Website Page View Data</h2>
+  <p>Starting to tie website page view data into the rest of the data that in the database. Mali has come back with this February page, new data that she was able to pull out of the Web analytics tool.</p>
+  <p>Create a table, open it and close it and the query and first will have a website, page, view ID column, and that'll be a big int will have a created at timestamp and that'll be a date time. We've got our website session, and so that's what we'll tie back to the website sessions table and that'll be a big int's and we'll have a preview URL.</p>
+  <p>Then we have website page views and are ready to import data. The website sessions data, a record is created when the first page loads, but no additional records are created throughout the rest of the session.</p>
+</div>
+
+<div class="detail-section">
+  <h2>🛠 Tech Stack</h2>
+  <span class="tag">SQL</span>
+  <span class="tag">MySQL</span>
+  <span class="tag">Data Modelling</span>
+  <span class="tag">Google Analytics</span>
+  <span class="tag">Database Design</span>
+  <span class="tag">Web Analytics</span>
+</div>
+
+</div>
+<footer class="site-footer"><p>&copy; 2026 Irene Yuan. Hosted on GitHub Pages.</p></footer>
+</div>
+</div>
+</body>
+</html>
